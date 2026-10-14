@@ -1,0 +1,23 @@
+
+# macOS
+.DS_Store
+__MACOSX/
+._*
+
+# Python and Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.py[cod]
+
+# Virtual environments and credentials
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Local datasets
+/data/**/*.pkl
+/data/**/*.csv
+/data/**/*.parquet
+/data/raw/openaq/metadata/*.json
